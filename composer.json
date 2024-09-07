@@ -1,0 +1,26 @@
+{
+    "name": "concept-labs/cli",
+    "description": "(C)oncept-Labs CLI application",
+    "keywords": ["php","CLI application"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Galitsky",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^7.4|^8.0|^8.2",
+        "concept-labs/app": "^1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\CLI\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+    }
+
+}
